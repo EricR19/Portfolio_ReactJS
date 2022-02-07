@@ -1,17 +1,10 @@
 import "./App.css";
+import Header from "../src/components/header";
 
 function App() {
   return (
     <div className="main-content">
-      <div className="up-content">
-        <div className="logo">
-          {" "}
-          LOGO
-          <img className="img"></img>
-        </div>
-        <div className="projects">PROJECTS</div>
-        <div className="contact">CONTACT</div>
-      </div>
+      <Header />
       <div className="mid-content">
         <div className="name">
           {"ERIC"}

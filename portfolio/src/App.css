@@ -8,35 +8,7 @@
     rgba(7, 7, 8, 0.958420868347339) 100%
   );
 }
-.up-content {
-  display: grid;
-  grid-template-columns: 6fr 0.5fr 0.5fr;
-  height: 60px;
-}
-.logo {
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  height: 60px;
-  width: 50px;
-}
-.img {
-  max-width: 100%;
-  height: auto;
-}
-.projects {
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact {
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .mid-content {
   height: 70%;
 }
