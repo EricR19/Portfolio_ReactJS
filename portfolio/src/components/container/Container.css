@@ -1,0 +1,13 @@
+.mid-content {
+  height: 70%;
+}
+.name {
+  display: flex;
+  height: 100%;
+  color: rgba(221, 221, 224, 0.849);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 250px;
+  font-family: "Architects Daughter";
+}

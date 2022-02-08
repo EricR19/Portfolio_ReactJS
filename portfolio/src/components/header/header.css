@@ -10,6 +10,7 @@
   margin-left: 30px;
   height: 60px;
   width: 50px;
+  cursor: pointer;
 }
 .img {
   max-width: 100%;
@@ -19,11 +20,16 @@
   color: aliceblue;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  cursor: pointer;
 }
 .contact {
   color: aliceblue;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+ul {
+  display: inline-block;
 }

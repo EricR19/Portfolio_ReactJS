@@ -1,18 +1,16 @@
 import "./App.css";
-import Header from "../src/components/header";
+import Header from "../src/components/header/header";
+import Container from "./components/container/Container";
+import React from "react";
 
-function App() {
-  return (
-    <div className="main-content">
-      <Header />
-      <div className="mid-content">
-        <div className="name">
-          {"ERIC"}
-          <div className="a">A Junior</div>
-          <div className="b">Front-End Developer</div>
-        </div>
+class App extends React.Component {
+  render() {
+    return (
+      <div className="main-content">
+        <Header />
+        <Container />
       </div>
-    </div>
-  );
+    );
+  }
 }
 export default App;
