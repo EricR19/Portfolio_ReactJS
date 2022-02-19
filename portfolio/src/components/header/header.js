@@ -3,7 +3,7 @@ import "./header.css";
 
 const namesHeader = ["projects", "contact"];
 const listElements = namesHeader.map((names) => (
-  <div onClick={() => activeClass(names)} className={names} key={names}>
+  <div onClick={activeClass} className={names} key={names}>
     {names}
   </div>
 ));
@@ -23,13 +23,10 @@ class Header extends React.Component {
     );
   }
 }
-function activeClass(className) {
-  if ((className = "projects")) {
-    callProject();
-  }
-  if ((className = "contact")) {
-    callContact();
-  }
+function activeClass(e) {
+  e.preventDefault();
+  console.log(e);
+  alert("touch");
 }
 function callProject() {
   alert("This project page is under contruction!");

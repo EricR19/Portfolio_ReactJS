@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.main-content {
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(22, 22, 24, 0.9136029411764706) 11%,
+    rgba(7, 7, 8, 0.958420868347339) 100%
+  );
+}
+
+.a {
+  display: flex;
+  height: 40px;
+  width: 25%;
+  justify-content: end;
+  font-size: 20px;
+  margin-top: -95px;
+}
+.b {
+  display: flex;
+  height: 40px;
+  width: 25%;
+  justify-content: end;
+  font-size: 20px;
+}
