@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/Contact/Contact";
 //import App from "./App";
 //import reportWebVitals from "./reportWebVitals";
 

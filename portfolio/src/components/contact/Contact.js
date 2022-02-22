@@ -1,4 +1,4 @@
-import "../base/base.css";
+import "../Base/base.css";
 import Header from "../header/header";
 import FormContact from "../formContact/FormContact";
 import React from "react";
