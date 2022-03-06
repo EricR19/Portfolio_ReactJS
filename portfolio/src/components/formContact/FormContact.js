@@ -2,7 +2,7 @@ import React from "react";
 import "./formContact.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
-const Forms = () => (
+export const Forms = (
   <div>
     <h1 className="title">Contact me</h1>
     <Formik
@@ -61,7 +61,6 @@ const Forms = () => (
             <div className="intro">
               Please if you want to contact me send me and email
             </div>
-            <div className="name">Name</div>
             <div className="input-name">
               <input
                 type="names"
@@ -110,4 +109,3 @@ const Forms = () => (
     </Formik>
   </div>
 );
-export default Forms;

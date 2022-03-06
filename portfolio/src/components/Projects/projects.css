@@ -1,0 +1,23 @@
+.main-box {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.child-box {
+  display: flex;
+  height: 60%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  border-style: double;
+  height: 60%;
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+}
