@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./projects.css";
 
-export const Project = (
-  <div className="main-box">
-    <div className="child-box">
-      <div className="card"> Projects images</div>
-      <div className="button">
-        <button>Change project</button>
+export function Project() {
+  const [contador, setContador] = useState(0);
+  return (
+    <div className="main-box">
+      <div className="child-box">
+        <div className="card"> Projects images {contador} </div>
+        <div className="button">
+          <button onClick={() => setContador(contador + 1)}>
+            Change project
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+}
