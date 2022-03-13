@@ -53,6 +53,6 @@ function Contact() {
   return Forms;
 }
 function Projects() {
-  return Project;
+  return Project();
 }
 export default Header;
