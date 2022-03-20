@@ -71,7 +71,7 @@ export const Forms = (
                 id="txtName"
                 placeholder="Name"
               ></input>
-              {errors.names && touched.names && errors.names}
+              <div>{errors.names && touched.names && errors.names}</div>
             </div>
             <div className="email">Email</div>
             <div className="input-email">
@@ -85,22 +85,23 @@ export const Forms = (
                 s
                 placeholder="Email"
               ></input>
-              {errors.email && touched.email && errors.email}
-              <div className="text-Msg">
-                <div className="Message"> Insert your Message</div>
-                <textarea
-                  type="message"
-                  name="message"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  value={values.message}
-                ></textarea>
-                {errors.message && touched.message && errors.message}
-              </div>
+              <div>{errors.email && touched.email && errors.email}</div>
+            </div>
+            <div className="Message"> Insert your Message</div>
+            <div className="input-msg">
+              <textarea
+                type="message"
+                name="message"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.message}
+              ></textarea>
+            </div>
+            <div>{errors.message && touched.message && errors.message}</div>
+
+            <div>
               <div>
-                <div>
-                  <button>Enviar</button>
-                </div>
+                <button>Enviar</button>
               </div>
             </div>
           </div>

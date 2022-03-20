@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Forms } from "../FormContact/formContact";
 import { cont } from "../Container/Container";
 import { Project } from "../Projects/projects";
+import logo from "../Resources/logo1.png";
 
 class Header extends React.Component {
   render() {
@@ -13,9 +14,8 @@ class Header extends React.Component {
           <div className="up-content">
             <div className="logo">
               <Link className="logo" to="/">
-                LOGO
+                <img className="img" src={logo}></img>
               </Link>
-              <img className="img"></img>
             </div>
             <div className="projects">
               <Link className="projects" to="/projects">

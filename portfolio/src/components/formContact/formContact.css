@@ -1,14 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap");
+
 body {
   color: aliceblue;
+  font-family: "Red Hot Mono", monospace;
 }
 
 .main {
   height: 650px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  font-size: 20px;
 }
 .title {
   text-align: center;
+}
+input {
+  width: 400px;
+  height: 30px;
+  background: none;
+  color: azure;
+  border-radius: 25px;
+}
+textarea {
+  width: 450px;
+  height: 120px;
+  background: none;
+  border-radius: 10px;
+  color: azure;
+}
+.input-name {
+  display: flex;
+  flex-direction: column;
+}
+.input-email {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CSS */
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 2px 2px 2px #c5c5c5, -2px -2px 2px #ffffff;
+  font-family: "Red Hot Mono", monospace;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
 }
